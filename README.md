@@ -5,4 +5,4 @@ Sistema de Controle de Doação de Sangue
 - Protótipo visual de baixa fidelidade: https://drive.google.com/drive/folders/1SEL1YTc4-NwN7T5_DnpARRLEtritjoc3?usp=sharing.
 
 GITHUB PAGE
-- https://estevanbiscaino.github.io/projetoDoacaoDeSangue/
+- https://dev-jmarc0s.github.io/Projeto_DoacaoDeSangue/
