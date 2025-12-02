@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrar</title>
+    <link rel="stylesheet" href="../../assets/css/estrutura.css">
+    <link rel="stylesheet" href="../../assets/css/Doador/login.css">
+    <link href='https://cdn.boxicons.com/3.0.5/fonts/basic/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <img class="logo-semfundo" src="../../assets/img/logositeraw.png" alt="Logo">
+        <nav>
+            <ul>
+                <li><a href="../../index.html">Início</a></li>
+                <li><a href="agendamento.html">Agendamento</a></li>
+                <li><a href="historico.html">Histórico</a></li>
+                <li><a href="curiosidades.html">Curiosidades</a></li>
+                <li><a href="ajuda.html">Ajuda</a></li>
+            </ul>
+        </nav>
+        <a href="pages/Doador/login.html" class="btn-entrar">Entrar</a>
+
+        <!-- MENU HAMBURGUER -->
+        <div id="menu-burguer">
+            <input type="checkbox" id="menu-faketrigger">
+
+            <label for="menu-faketrigger" id="menu-lines">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <ul class="menu-mobile">
+                <li><a href="../../index.html">Início</a></li>
+                <li><a href="agendamento.html">Agendamento</a></li>
+                <li><a href="historico.html">Histórico</a></li>
+                <li><a href="curiosidades.html">Curiosidades</a></li>
+                <li><a href="ajuda.html">Ajuda</a></li>
+            </ul>
+        </div>
+
+    </header>
+
+    <main>
+        <!-- VISUAL -->
+        <section>
+            <div id="idVisual">
+                <img src="../../assets/img/logositeraw.png" alt="Logo_Sangue+">
+                <h1>Um gesto simples, uma vida a mais.</h1>
+            </div>
+
+            <img src="../../assets/img/ilustracaoDoacao.png" alt="Pessoa_Doando" id="ilustracao">
+        </section>
+
+        <!-- LOGIN -->
+        <form>
+            <!-- Saudações -->
+            <h1>Você faz a diferença!</h1>
+
+            <!-- Inputs -->
+            <div id="inputs">
+                <label for="cpf">
+                    <span><i class='bxr  bxs-user'></i></span>
+                    <input type="text" name="cpf" id="cpf" placeholder="CPF">
+                </label>
+
+                <label for="pwd">
+                    <span><i class='bx bxs-lock'></i></span>
+                    <input type="password" name="pwd" id="pwd" placeholder="Senha">
+                </label>
+
+                <!-- Esqueci minha senha-->
+                <p>Esqueci minha senha</p>
+            </div>
+
+
+            <!-- Botão Login -->
+            <button>Entrar</button>
+
+            <!-- Esquecer a senha -->
+            <p id="cadastro">Não possui uma conta? <span><strong><a href="cadastro.html">Cadastre-se</a></span></strong></p>
+
+        </form>
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer>
+        <img class="gov-sp" src="../../assets/img/governo-sp-logo.png" alt="">
+        <p>© 2025 Posto de Saúde Vida Nova | Sistema desenvolvido pela equipe Sangue+</p>
+    </footer>
+</body>
+
+</html>
